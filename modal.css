@@ -1,0 +1,180 @@
+*{margin: 0;padding: 0;}
+a, button, img{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+a *{
+    border:none;
+}
+html {
+    font-family: 'Pretendard Variable',sans-serif;
+    letter-spacing: -0.3px;
+    -webkit-font-smoothing: antialiased;
+}
+body, html {
+    line-height: 1;
+    font-family: "Pretendard Variable", "Noto Sans KR", "Apple SD Gothic Neo", "맑은 고딕", "Malgun Gothic", sans-serif;
+    font-size: 13px;
+}
+
+.web{
+    height: 100%;
+    /* background-color: rgba(250, 250, 250, 1); */
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    /* min-height: 100%; */
+
+        /* 확인용 */
+        /* border: 1px solid blueviolet */
+}
+.main-d1{
+    display: flex;
+    width: 100%;
+
+        /* 확인용 */
+        /* border: 1px solid blue */
+}
+.main-d11{
+    margin: 0 auto;
+    max-width: 300px;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* 세로 정렬 */
+
+    /* 확인용 */
+    /* border: 5px solid black; */
+    
+    /* 모르는것들 */
+    flex: 1 0 auto;
+
+}
+section {
+    display: block;
+}
+form{
+    width: 300px;
+
+    display: block;
+}
+.from-d1{
+    position: relative;
+}
+.from-input1{
+    margin: 0;
+    line-height: 21px;
+    width: 100%;
+    border-radius: 4px 4px 0 0;
+    /* 박스테두리 */
+    padding: 13px 15px 14px;
+    box-sizing: border-box;
+    /* box 사이즈를 레이아웃에서 벗어나지
+    않도록 제어 하는데 사용*/
+
+    display: block;
+    position: relative;
+    
+
+    /* 모르는것들 */
+    box-sizing: border-box; 
+    position: relative;
+    display: block;
+    
+    
+    transition: box-shadow 0.2s ease 0s, background-color 0.2s ease 0s;
+}
+.from-input2{
+    line-height: 21px;
+    width: 100%;
+    border-radius: 0 0 4px 4px;
+    padding: 13px 15px 14px;
+    box-sizing: border-box; 
+
+    margin-top: -1px;
+    /* input 창을 겹치기 위해 올려줌 */
+
+    resize: none
+}
+.login-b{
+    margin: 20px 0;
+    width: 100%;
+
+    padding: 15px 10px;
+    line-height: 20px;
+    font-size: 17px;
+    min-height: 50px;
+
+    background-color: #35c5f0;
+    border-color: #35c5f0;
+    color: #fff;
+
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-weight: 700;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.main-s1{
+    width: 100%;
+    text-align: center;
+}
+.section-a2{
+    margin-left: 20px;
+}
+.section-d1{
+    margin: 35px 0 15px;
+    color: rgb(117, 117, 117);
+    font-size: 12px;
+    text-align: center;
+
+    line-height: 1.33;
+}
+.section-a11{
+    margin: 0 10px;
+    transition: opacity 0.1s ease 0s;
+}
+.section-a11 >svg{
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+}
+.section-a12{
+    margin-top: 24px;
+    color: rgb(194, 200, 204);
+    font-size: 14px;
+    line-height: 18px;
+}
+.section3{
+    width: 100%;
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid rgb(219, 219, 219);
+}
+.section3-btn{
+    width: 100%;
+    background-color: transparent;
+    border: 0px;
+    margin: 0px 0px 20px;
+    padding: 0px;
+    font-size: 15px;
+    line-height: 1.4;
+    color: rgb(66, 66, 66);
+}
+.section3-d{
+    padding: 3px;
+    margin: -3px;
+    box-sizing: border-box;
+}
